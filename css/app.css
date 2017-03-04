@@ -4,3 +4,38 @@
    margin-right: auto;
    max-width: initial;
 }
+
+#logo {
+  width: 150px;
+  height: 50px;
+}
+
+.transparent {
+  background: transparent;
+  border: none;
+}
+
+ul.menu {
+  display: inline;
+  list-style: none;
+}
+
+ul.menu li {
+  padding: 5px;
+  color: black;
+}
+
+#top {
+  background-color: black;
+  background: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)), url(../images/background-top.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+div.vertical-align {
+  color: white;
+  position: relative;
+  top: 30%;
+  transform: translateY(-30%);
+}

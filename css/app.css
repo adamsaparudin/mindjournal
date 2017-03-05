@@ -33,6 +33,10 @@ ul.menu li {
   background-size: cover;
 }
 
+.darkGrey {
+    background-color: cadetblue;
+}
+
 div.vertical-align {
   color: white;
   position: relative;

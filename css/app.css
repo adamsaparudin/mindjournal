@@ -33,8 +33,50 @@ ul.menu li {
   background-size: cover;
 }
 
+.feature {
+    display: table;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-row > div {
+    display: table-cell;
+}
+
+.tozero {
+    padding: 0;
+    margin: 0;
+}
+
 .darkGrey {
-    background-color: cadetblue;
+    background-color: #1A1A1A;
+    padding: 150px 50px 100px;
+    color: white;
+}
+
+.darkGrey a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    background-color: white;
+    color: black;
+    border-radius: 20px
+}
+
+.note-feature {
+    vertical-align: middle;
+    margin: 30px auto;
+}
+
+.big-icon {
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    padding: 0 167px;;
 }
 
 div.vertical-align {
